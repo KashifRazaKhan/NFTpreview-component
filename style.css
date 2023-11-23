@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Outfit:wght@300;400;600&display=swap');
+:root{  
+--Softblue: hsl(215, 51%, 70%);
+--Cyan: hsl(178, 100%, 50%);
+--Darkbluemain: hsl(217, 54%, 11%);
+--DarkbluecardBG: hsl(216, 50%, 16%);
+--Darkblueline: hsl(215, 32%, 27%);
+--White: hsl(0, 0%, 100%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Outfit', sans-serif;
+    background: var(--Darkbluemain);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.component{
+    width: 325px;
+    height: 540px;
+    background: var(--DarkbluecardBG);
+    padding: 25px;
+    border-radius: 20px;
+}
+img[alt="Equilibrium"]{
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+h3{
+    color: var(--White);
+    margin-bottom: 20px;
+}
+p{
+    color:var(--Softblue);
+    margin-bottom: 20px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+b{
+    color: var(--Cyan);
+}
+
+.time{
+    display: flex;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background: var(--Darkblueline);
+}
+.creator{
+    text-align: center;
+    margin-top: 10px;
+}
+.name{
+    color: var(--White);
+}
+img[alt="avatar"]{
+    float: left;
+    border-radius: 50%;
+    border: 1px solid var(--White);
+}
